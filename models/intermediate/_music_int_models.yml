@@ -1,0 +1,10 @@
+version: 2
+
+models:
+    - name: int_tracks_joined_to_albums_artists_genre_mediatype
+        
+      columns:
+        - name: track_id
+          tests:
+            - unique
+            - not_null
