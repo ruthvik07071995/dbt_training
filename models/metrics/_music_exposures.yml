@@ -1,0 +1,18 @@
+version: 2
+
+exposures:
+  - name: music_sales_by_date
+    label: Daily Revenue
+    type: dashboard
+    depends_on:
+      - ref('agg_music_sales_by_date')
+    owner:
+      email: abc123@gmail.com
+  
+  - name: sales_by_employer
+    label: Revenue by each employer
+    type: dashboard
+    depends_on:
+      - ref('agg_sales_by_employer')
+    owner:
+      email: abc123@gmail.com
