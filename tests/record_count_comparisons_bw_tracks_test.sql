@@ -11,4 +11,4 @@ record_count_intermediate as (
 select *
 from record_count_staging_table
 inner join record_count_intermediate
-where record_count_intermediate <> record_count_staging_table
+where no_of_recs_intermediate <> no_of_recs_staging

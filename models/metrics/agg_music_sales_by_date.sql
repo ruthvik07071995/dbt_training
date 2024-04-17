@@ -1,3 +1,10 @@
+{{
+  config(
+    materialized = 'table',
+    )
+}}
+
+
 select 
     invoice_date_est,
     customer_mailing_country,

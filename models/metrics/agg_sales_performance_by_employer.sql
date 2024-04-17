@@ -1,3 +1,10 @@
+{{
+  config(
+    materialized = 'table',
+    )
+}}
+
+
 select
     employee_name,
     employee_title,
