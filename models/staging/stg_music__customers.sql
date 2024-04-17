@@ -12,4 +12,4 @@ select
     fax as customer_fax_number,
     email as customer_email_address,
     supportrepid as support_representative_employee_id
-from {{ source('music_db', 'customer') }}
+from {{ source('music', 'customer') }}

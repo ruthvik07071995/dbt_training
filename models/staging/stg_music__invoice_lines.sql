@@ -4,4 +4,4 @@ select
     trackid as track_id,
     unitprice as invoice_lineitem_revenue_usd,
     quantity as quantity_purchased
-from {{ source('music_db', 'invoiceline') }}
+from {{ source('music', 'invoiceline') }}

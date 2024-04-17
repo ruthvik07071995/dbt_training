@@ -10,4 +10,4 @@ select
     milliseconds/(1000*60) as track_length_mins,
     bytes,
     unitprice as unit_price
-from {{ source('music_db', 'track') }}
+from {{ source('music', 'track') }}

@@ -15,4 +15,4 @@ select
     phone as employee_phone_number,
     fax as employee_fax_number,
     email as employee_email_address
-from {{ source('music_db', 'employee') }}
+from {{ source('music', 'employee') }}

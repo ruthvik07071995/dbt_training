@@ -8,4 +8,4 @@ select
     billingcountry as billing_country,
     billingpostalcode as billing_zipcode,
     total as invoice_revenue_usd
-from {{ source('music_db', 'invoice') }}
+from {{ source('music', 'invoice') }}
