@@ -3,8 +3,20 @@ version: 2
 models:
 
     - name: stg_music__albums
-      description: This model has name of the albums and artists that created the album 
+      description: This model has name of the albums and artists that created the album
+      columns:
+        - name: album_id
+          tests:
+            - unique
+            - not_null
+            
     - name: stg_music__artists
+      columns:
+        - name: artist_id
+          tests:
+            - unique
+            - not_null
+            
     - name: stg_music__customers
     - name: stg_music__employees
     - name: stg_music__genres
