@@ -9,6 +9,12 @@ sources:
       - name: album
         description: >
           This is a raw table that has data on music albums
+        columns:
+          - name: albumid
+            tests:
+              - unique
+              - not_null
+
       - name: artist
       - name: customer
       - name: employee
@@ -19,4 +25,3 @@ sources:
       - name: playlist
       - name: playlisttrack
       - name: track
-      
