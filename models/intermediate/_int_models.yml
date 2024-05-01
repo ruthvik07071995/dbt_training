@@ -16,7 +16,7 @@ models:
       This model is developed to join invoice with invoice line. It has data on the price paid by 
       a customer on each track purchased
     columns:
-      - name: "invoice_id || '-' || invoice_line"
+      - name: "invoice_id || '-' || invoice_lineid"
         tests:
           - unique
           - not_null
