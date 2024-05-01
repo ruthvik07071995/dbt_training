@@ -26,7 +26,7 @@ joined as (
         playlists.playlist_name,
         tracks.track_name,
         tracks.track_composer,
-        tracks.album_name,
+        tracks.album_title,
         tracks.artist_name,
         tracks.mediatype_name,
         tracks.genre_name,

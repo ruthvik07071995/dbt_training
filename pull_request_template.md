@@ -6,8 +6,6 @@ Describe your changes, and why you're making them. Particularly focus on the goa
 the business use case, and any design choices you made. Sections below for Jira ticket
 links, new models, and changes to existing models.
 
-#### Jira Ticket(s): -- add Jira ticket links
-
 #### New models
 
 list new models and give a brief explanation of what they do.
