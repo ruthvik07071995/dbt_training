@@ -11,4 +11,3 @@ models:
           - not_null
           
   - name: stg_music__artists
-  - name: stg_music__albums
