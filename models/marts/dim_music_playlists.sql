@@ -26,7 +26,11 @@ joined as (
         playlists.playlist_name,
         tracks.track_name,
         tracks.track_composer,
+<<<<<<< HEAD
         tracks.album_name,
+=======
+        tracks.album_title,
+>>>>>>> 0083c45acec4cc3020e274d2b5dd06dbeb6d492c
         tracks.artist_name,
         tracks.mediatype_name,
         tracks.genre_name,
@@ -42,4 +46,8 @@ joined as (
         on playlist_tracks.track_id = tracks.track_id
 )
 
+<<<<<<< HEAD
 select * from joined
+=======
+select * from joined
+>>>>>>> 0083c45acec4cc3020e274d2b5dd06dbeb6d492c

@@ -39,7 +39,11 @@ joined as (
         ----- track related information
         tracks.track_name,
         tracks.track_composer,
+<<<<<<< HEAD
         tracks.album_name,
+=======
+        tracks.album_title,
+>>>>>>> 0083c45acec4cc3020e274d2b5dd06dbeb6d492c
         tracks.artist_name,
         tracks.mediatype_name,
         tracks.genre_name,

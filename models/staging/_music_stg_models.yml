@@ -1,6 +1,7 @@
 version: 2
 
 models:
+<<<<<<< HEAD
 
     - name: stg_music__albums
       description: This model has name of the albums and artists that created the album
@@ -25,3 +26,15 @@ models:
     - name: stg_music__playlist_tracks
     - name: stg_music__playlists
     - name: stg_music__tracks
+=======
+  - name: stg_music__albums
+    description: This model has name of the albums and artists
+      that created the albums
+    columns:
+      - name: album_id
+        tests:
+          - unique
+          - not_null
+          
+  - name: stg_music__artists
+>>>>>>> 0083c45acec4cc3020e274d2b5dd06dbeb6d492c

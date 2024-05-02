@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 with tracks as (
     select * from {{ ref('stg_music__tracks') }}
 ),
+=======
+
+
+with tracks as (
+    select * from {{ ref('stg_music__tracks') }}
+), 
+>>>>>>> 0083c45acec4cc3020e274d2b5dd06dbeb6d492c
 
 genres as (
     select * from {{ ref('stg_music__genres') }}
@@ -26,7 +34,11 @@ joined as (
         tracks.genre_id,
         tracks.track_name,
         tracks.track_composer,
+<<<<<<< HEAD
         albums.album_name,
+=======
+        albums.album_title,
+>>>>>>> 0083c45acec4cc3020e274d2b5dd06dbeb6d492c
         artists.artist_name,
         media_types.mediatype_name,
         genres.genre_name,
